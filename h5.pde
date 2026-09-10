@@ -25,9 +25,9 @@ String tiendeVariabele = "";
 tiendeVariabele = str(mijnVariabele);
 println(tiendeVariabele);
 
-int gewicht = (0);
+int gewicht = (110);
 float lengte = 1.80;
-float bmi = gewicht / (lengte * lengte) * 100 / 100;
+float bmi = gewicht / (lengte * lengte);
 
 
 println("met een gewicht van " + gewicht + " kg en een Lengte van " + lengte + " m is je BMI: " + bmi);
