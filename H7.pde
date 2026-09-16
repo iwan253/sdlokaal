@@ -38,6 +38,7 @@ break;
 int som = 50+2 + (4*3);
 
 println(som);
+//opdracht 7.3
 
 Boolean fiets = false;
 Boolean lopen = false;
@@ -46,6 +47,8 @@ if(!lopen && (fiets || auto)){
 println("Je gebruikt een voertuig met wielen");
 }
 
+
+//opdracht 7.4
 int dag = 4;
 
 switch(dag){
@@ -72,6 +75,7 @@ switch(dag){
         break;
 }
 
+//opdracht 7.5
 int cijfer = 8; 
 
 switch(cijfer){
